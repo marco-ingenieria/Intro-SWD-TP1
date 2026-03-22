@@ -1,6 +1,6 @@
 #!/bin/bash
 
-while true;
+while [ 1 -eq 1 ];
 
 do
 
@@ -24,6 +24,7 @@ case $opcion in
      ;;
   2)
      echo "2"
+	cp data_ejemplo/consolidar.sh ~/EPNro1/
 	bash ~/EPNro1/consolidar.sh &
      ;;
 
