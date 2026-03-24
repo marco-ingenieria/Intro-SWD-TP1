@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export FILENAME=$_
+export FILENAME=${!#}
 while getopts "d" OPT; do
     case $OPT in
     d)
