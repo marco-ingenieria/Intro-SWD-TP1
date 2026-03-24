@@ -2,7 +2,7 @@
 
 echo "Datos ordenados por numero de padron: "
 
-if [ -f ~/EPNro1/salida/"$FILENAME".txt" ]; then
+if [ -f ~/EPNro1/salida/"$FILENAME".txt ]; then
    
    sort -k1,1n ~/EPNro1/salida/"$FILENAME".txt
 
