@@ -1,6 +1,5 @@
 #!/bin/bash
 
-echo "HOLA SOY CONSOLIDAR"
 
 while [ 1 -eq 1 ]; do
 
